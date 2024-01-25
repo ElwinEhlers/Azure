@@ -1,5 +1,5 @@
 # Azure
-#How to see my network. IP test for peerings. 
+#How to see my network. IP test prepair peerings. 
 <br>
 Azure Cloud Shell
 ```html
