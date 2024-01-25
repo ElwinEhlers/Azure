@@ -10,3 +10,5 @@ az network vnet list --query '[].{"Region": location, "vNet": name, "CIDR": addr
 |germanywestcentral  |ahoi-hub-vnet       |10.80.0.0/16    |
 |germanywestcentral  |ahoi-spoke1-vnet    |10.81.0.0/16    |
 |germanywestcentral  |ahoi-spoke2-vnet    |10.82.0.0/16    |
+<br>
+https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview
