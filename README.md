@@ -3,7 +3,7 @@
 <br>
 Azure Cloud Shell
 ```html
-az network vnet list --query '[].{"Region": location, "vNet": name, "CIDR": addressSpace.addressPrefixes[0]}'
+az network vnet list --query '[].{"Region": location, "vNet": name, "CIDR": addressSpace.addressPrefixes[0]}' --output table
 ```
 |Region              |VNet                |CIDR            |
 |------------------  |  ----------------  |  ------------  |
